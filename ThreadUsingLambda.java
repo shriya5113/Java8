@@ -6,7 +6,7 @@ public class ThreadUsingLambda {
             }
         };
 
-        Thread thread = new Thread(runnable);
-        thread.run();
+        Thread threads = new Thread(runnable);
+        threads.run();
     }
 }
