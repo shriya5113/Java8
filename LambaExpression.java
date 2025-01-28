@@ -1,7 +1,7 @@
 public class LambaExpression {
     public static void main(String[] args) {
-        FuntionalInterfaces functionalInterface = (a,b)->System.out.println(a+b);
+        FuntionalInterfaces functionalInterface = (x,y) -> x.compareToIgnoreCase(y);
 
-         functionalInterface.save(6,7);
+//         functionalInterface.save(6,7);
      }
 }

@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
@@ -9,6 +8,8 @@ public class PredicateFunctions {
         Predicate<String> predicate1 = x -> x.contains("e");
         Predicate<String> predicate2 = x -> (x.length()) == 5;
         Predicate<String> predicate3 = predicate1.and(predicate2);
+        Predicate<String> predicate4 = x -> x.equalsIgnoreCase("hello");
+
         System.out.println(predicate3.test("hello"));
         System.out.println(predicate1.negate().test("Hello"));
         System.out.println(predicate1.equals("e"));
