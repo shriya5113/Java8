@@ -1,8 +1,6 @@
-package dp;
+package dsa;
 
 import java.util.HashMap;
-
-
 
 public class SlindingWindow {
     public static void main(String[] args) {

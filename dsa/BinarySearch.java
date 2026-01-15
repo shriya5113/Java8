@@ -1,4 +1,4 @@
-package dp;
+package dsa;
 
 public class BinarySearch {
 
@@ -9,7 +9,7 @@ public class BinarySearch {
 
         while(start<end)
         {
-            int mid = (end+(start-end))/2;
+            int mid = (start+(end-start))/2;
 
             if(arr[mid] == key)
             {
